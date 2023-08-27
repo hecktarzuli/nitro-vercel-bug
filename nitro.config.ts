@@ -2,6 +2,6 @@
 export default defineNitroConfig({
     preset: 'vercel-static',
     prerender:{
-        routes:['/about/']
+        routes:['/about']
     }
 });
