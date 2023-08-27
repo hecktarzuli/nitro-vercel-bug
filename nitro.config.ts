@@ -2,6 +2,6 @@
 export default defineNitroConfig({
     preset: 'vercel-static',
     prerender:{
-        crawlLinks: true,
+        routes:['about']
     }
 });
